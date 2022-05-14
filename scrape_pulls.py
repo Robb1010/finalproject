@@ -3,7 +3,7 @@ import json
 from time import sleep
 
 url = "https://api.github.com/repos/microsoft/vscode/pulls"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer API_KEY"}
 
 text = "123"
 count = 1
