@@ -12,7 +12,7 @@ while len(text) > 2:
     querystring = {f"page":{count},"per_page":"100"}
 
     payload = ""
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer API_KEY"}
     response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
     text = response.text
     if len(text) > 2:
